@@ -19,7 +19,7 @@ public class RepasDAOimpl implements RepasDAO {
                 PreparedStatement psmt = connection.prepareStatement(INSERT_REPAS,
                         PreparedStatement.RETURN_GENERATED_KEYS);
                 PreparedStatement psmt2 = connection.prepareStatement(INSERT_ALIMENT,
-                        PreparedStatement.RETURN_GENERATED_KEYS);
+                        PreparedStatement.RETURN_GENERATED_KEYS)
         ) {
             // J'insere le repas en base de données
             psmt.setDate(1, java.sql.Date.valueOf(repas.getDate()));

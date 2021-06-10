@@ -1,0 +1,15 @@
+@font-face {
+    font-family: sweet;
+    src: url(../fonts/sweet.ttf);
+}
+
+#titre {
+    font-family: sweet, serif;
+    color: darkcyan;
+}
+
+a {
+    border-top-left-radius: 10px;
+    border: gainsboro double;
+    box-shadow: 2px 2px 2px 1px darkcyan;
+}
