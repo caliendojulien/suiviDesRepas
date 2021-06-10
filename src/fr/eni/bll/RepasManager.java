@@ -2,6 +2,8 @@ package fr.eni.bll;
 
 import fr.eni.bo.Aliment;
 import fr.eni.bo.Repas;
+import fr.eni.dal.DAOFactory;
+import fr.eni.dal.RepasDAO;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
