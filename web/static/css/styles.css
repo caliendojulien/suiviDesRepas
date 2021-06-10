@@ -9,7 +9,7 @@
 }
 
 a {
-    border-top-left-radius: 10px;
+    border-radius: 10px;
     border: gainsboro double;
     box-shadow: 2px 2px 2px 1px darkcyan;
 }
