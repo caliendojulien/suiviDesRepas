@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <title>Ajout</title>
@@ -12,7 +12,7 @@
 %></div>
 <form action="ajout" method="post">
     <label for="date">Date : </label><input type="date" name="date" id="date">
-    <label for="time">Heure : </label><input type="time" name="time" id="time">
+    <label for="heure">Heure : </label><input type="time" name="heure" id="heure">
     <label for="aliments">Aliments : </label><textarea name="aliments" id="aliments" cols="30" rows="10"></textarea>
     <input type="submit" value="Ajouter">
 </form>

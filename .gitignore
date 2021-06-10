@@ -1,2 +1,4 @@
 /.idea/
 /suiviDesRepas.iml
+*.class
+/out
