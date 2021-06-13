@@ -30,4 +30,10 @@ public class RepasManager {
         RepasDAO rDAO = DAOFactory.getRepasDAO();
         rDAO.insert(r);
     }
+
+    public List<Repas> touslesrepas() {
+        RepasDAO rDAO = DAOFactory.getRepasDAO();
+        List<Repas> listeRepas = rDAO.selectAll();
+        return listeRepas;
+    }
 }

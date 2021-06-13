@@ -2,15 +2,27 @@
 <html>
 <head>
     <title>Accueil</title>
-    <link rel="stylesheet" href="<%=request.getContextPath()%>/static/css/knacss.css">
-    <link rel="stylesheet" href="<%=request.getContextPath()%>/static/css/styles.css">
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/static/css/semantic.min.css">
+    <script src="<%=request.getContextPath()%>/static/js/semantic.min.js"></script>
 </head>
 <body>
-<div id="titre" class="text-36 text-center">Suivi des repas</div>
-<hr />
-<div class="grid grid-cols-2 gap-10 align-center">
-    <div class="text-right"><a href="<%=request.getContextPath()%>/ajout">Ajouter un repas</a></div>
-    <div class="text-left"><a href="<%=request.getContextPath()%>/historique">Visualiser les repas</a></div>
+<div class="ui container">
+    <h1 class="ui center aligned header">Suivi des repas</h1>
+    <h2 class="ui dividing header">Accueil</h2>
+    <br>
+    <div class="ui centered two column grid">
+        <div class="ui large buttons">
+            <a href="<%=request.getContextPath()%>/ajout">
+                <button class="ui primary button">Ajouter un repas</button>
+            </a>
+            <div class="or" data-text="OU"></div>
+            <a href="<%=request.getContextPath()%>/historique">
+                <button class="ui primary button">Visualiser les
+                    repas
+                </button>
+            </a>
+        </div>
+    </div>
 </div>
 </body>
 </html>
