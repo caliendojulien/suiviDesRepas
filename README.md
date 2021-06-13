@@ -5,4 +5,4 @@
   
 :zany_face:
 
-![accueil](https://github.com/caliendojulien/suiviDesRepas/raw/master/img/accueil.png)
+![accueil](https://github.com/caliendojulien/suiviDesRepas/raw/master/img/index.png)
